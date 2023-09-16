@@ -31,7 +31,9 @@ int main() {
 }
 ```
 
-`Output: i = 50`
+```
+Output: i = 50
+```
 
 
 ## 2.2 %c (Character)
@@ -49,11 +51,11 @@ int main() {
 }
 ```
 
-`Output: Enter the character`
-
-`Input : A`
-
-`Output: c = A`
+```
+Output: Enter the character
+Input : A
+Output: c = A
+```
 
 
 ## 2.3 %f (Floating Point)
@@ -69,7 +71,9 @@ int main() {
 }
 ```
 
-`Output: f = 3.000000`
+```
+Output: f = 3.000000
+```
 
 
 ## 2.4 %e (Floating Pointer Number)
@@ -85,7 +89,9 @@ int main() {
 }
 ```
 
-`Output: f = 1.250000e+1`
+```
+Output: f = 1.250000e+1
+```
 
 
 ## 2.5 %s (String)
@@ -101,7 +107,9 @@ int main() {
 }
 ```
 
-`Output: s = hello world`
+```
+Output: s = hello world
+```
 
 
 ## 2.6 %lf (Double)
@@ -117,7 +125,9 @@ int main() {
 }
 ```
 
-`Output: d = 12.500000`
+```
+Output: d = 12.500000
+```
 
 
 ## 2.7 %o (octal integer)
@@ -135,7 +145,9 @@ int main() {
 }
 ```
 
-`Output: oct = 13`
+```
+Output: oct = 13
+```
 
 
 ## 2.8 %x (Hexadecimal Integer)
@@ -153,7 +165,9 @@ int main() {
 }
 ```
 
-`Output: h = e`
+```
+Output: h = e
+```
 
 
 ## 2.9 %p (Prints Memory Address) Format Specifier
@@ -171,4 +185,6 @@ int main() {
 }
 ```
 
-`Output: mem = 0x7ffcc14472d4`
+```
+Output: mem = 0x7ffcc14472d4
+```
