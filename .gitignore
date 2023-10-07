@@ -2,3 +2,4 @@ tests/
 *.out
 .devcontainer/
 .vscode/
+*.o

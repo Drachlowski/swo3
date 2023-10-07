@@ -3,12 +3,23 @@
 #include <string.h>
 #include "utils.h"
 
+
 typedef struct address { 
   char street[40]; // NOTE: must contain size or be pointer   
   int nr; 
   int zip; 
   char *city; // NOTE: for pointer, only address is copied 
 } address_t; 
+
+// Equivalent to:
+// struct address { 
+//   char street[40];
+//   int nr; 
+//   int zip; 
+//   char *city;
+// };
+//
+// typedef struct address address_t;
 
 void print_address_v(address_t a) { 
   printf("%s %d\n%d %s\n", a.street, a.nr, a.zip, a.city); 
@@ -61,7 +72,7 @@ int main(void) {
   print_address(a2); 
 
   free(a.city); // NOTE: always free allocated memory 
-  printf("sizeof(a) = %ld", sizeof(a));
+  printf("sizeof(a) = %ld\n", sizeof(a));
   
   return 0;
 }
