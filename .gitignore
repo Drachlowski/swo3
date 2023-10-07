@@ -3,3 +3,4 @@ tests/
 .devcontainer/
 .vscode/
 *.o
+.depend
